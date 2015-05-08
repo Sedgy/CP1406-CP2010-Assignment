@@ -1,0 +1,187 @@
+/*Reset*/
+* {margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+img, fieldset {
+	border: 0;
+	margin-left: 15%;
+}
+
+button {cursor: pointer;}
+ul {list-style: none;}
+
+
+
+.header {
+	background-color: #7e8d92;
+	margin: 0;
+	padding: 0;
+	height: 90px;
+}
+
+.login{
+	float: right;
+	font-size: small;
+    margin-left: auto;
+    margin-right: 15%;
+}
+.login:link{
+    text-decoration: none;
+    color: black;
+}
+.login:visited{
+    text-decoration: none;
+    color: black;
+}
+.login:hover {
+    text-decoration: underline;
+}
+
+.logo {
+	margin-left: 10%;
+	margin-top: 10px;
+}
+
+.header-navigation {
+	text-align: center;
+	display: inline-block;
+	font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.header-navigation a{
+	padding-left: 5px;
+	padding-right: 5px;
+    text-decoration: none;
+    color: #13181b;
+}
+.header-navigation a:visited{
+    color: #13181b;
+}
+.header-navigation a:hover{
+    text-decoration: underline;
+}
+.about-us {
+    margin-left: 15%;
+    margin-right: 35%;
+    margin-top: 2%;
+    margin-bottom: 2%; 
+}
+
+.about-us h2{
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+.become-member {
+    margin-left: 15%;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+.become-member h2{
+	margin-bottom: 2%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: bold;
+}
+.become-member button {
+   background: #858687;
+   background: -webkit-gradient(linear, left top, left bottom, from(#7e8d92), to(#7e8d92));
+   background: -webkit-linear-gradient(top, #7e8d92, #7e8d92);
+   background: -moz-linear-gradient(top, #7e8d92, #7e8d92);
+   background: -ms-linear-gradient(top, #7e8d92, #7e8d92);
+   background: -o-linear-gradient(top, #7e8d92, #7e8d92);
+   background-image: -ms-linear-gradient(top, #7e8d92 0%, #7e8d92 100%);
+   padding: 11px 22px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #000000;
+   font-size: 14px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-right: 30px;
+   margin-left: 30px;
+   }
+.become-member button:hover {
+   text-shadow: #1e4158 0 1px 0;
+   background: #696969;
+   background: -webkit-gradient(linear, left top, left bottom, from(#696969), to(#696969));
+   background: -webkit-linear-gradient(top, #696969, #696969);
+   background: -moz-linear-gradient(top, #696969, #696969);
+   background: -ms-linear-gradient(top, #696969, #696969);
+   background: -o-linear-gradient(top, #696969, #696969);
+   background-image: -ms-linear-gradient(top, #696969 0%, #696969 100%);
+   color: #fff;
+   }
+.become-member button:active {
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#1c6286), to(#1c6286));
+   background: -webkit-linear-gradient(top, #1c6286, #1c6286);
+   background: -moz-linear-gradient(top, #1c6286, #1c6286);
+   background: -ms-linear-gradient(top, #1c6286, #1c6286);
+   background: -o-linear-gradient(top, #1c6286, #1c6286);
+   background-image: -ms-linear-gradient(top, #1c6286 0%, #1c6286 100%);
+   color: #fff;
+   }
+
+.upcoming-events{
+    margin-left: 15%;
+}
+
+.upcoming-events h2{
+    font-weight: bold;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+.events-content div{
+    display: inline-block;
+    padding: 20px;
+}
+
+.events-content img{
+    width: 200px;
+    height: auto;
+    margin-left: 0;
+}
+
+.site-footer {
+	background-color:#13181b;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer-navigation{
+	float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+.footer-navigation a:link{
+    text-decoration: none;
+    color: #0362be;
+    
+}
+.footer-navigation a:visited{
+    color: #0362be;
+    
+}
+.footer-navigation a:hover{
+    text-decoration: underline;
+}
+
+.footer-contact{
+	color: #FFFFFF;
+	font-size: small;
+    float: right;
+    margin-right: 10%;
+}
