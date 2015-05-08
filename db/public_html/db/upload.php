@@ -1,7 +1,7 @@
 <?php
 include("dbconnection.php");
 
-$target_dir = "musos/";
+$target_dir = "db/musos/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
@@ -47,6 +47,7 @@ if ($uploadOk == 0) {
 session_start();
 //Prepares new filename.
 $newName = $target_dir . $_SESSION['id'] . "." . $imageFileType;
+echo $newName;
 //Rename new uploaded file.
 rename($target_file, $newName);
 $id = $_SESSION['id'];

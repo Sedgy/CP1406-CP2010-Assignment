@@ -18,7 +18,7 @@ include("dbconnection.php")
         $sql = "SELECT * FROM artists";
         foreach ($dbh->query($sql) as $row)
         {
-            $path = pathinfo("musos/'$row[id]'");
+            $path = pathinfo("db/musos/'$row[id]'");
             echo "<tr>\n<td><a href='artist.php?id=$row[id]' title='Click for more information.'><strong>", $row['name'], "</strong></a></td>\n<td><img src='", $row['filename'], "' class='artist-img' width='200' height='100'></td><td>", $row['summary'], "</td>\n</tr>\n";
         }
         //db connection close
