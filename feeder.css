@@ -1,0 +1,54 @@
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	background-color: #eeeeee;
+	color: #222222;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	text-align: justify
+}
+a:hover {
+	color: #880088;
+}
+h1, h2 {
+    text-align: left;
+}
+header {
+	text-align: center;
+	background-image: url(TCMC%20Images%20Docs/StolenImages/townsville_strand_waterparkcropped.gif);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+background {
+    background-image: url(TCMC Images Docs/SiteImages/woodgrainlight.jpg);
+	background-size: auto;
+}
+footer {
+	font-size: 14px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align: center;
+	margin-top: 20px;
+}
+#text {
+	width: 750px;
+	min-width: 750px;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+}
+#text img {
+	display: block;
+	margin-right: 10px;
+	float: left;
+	padding-top: 5px;
+
+}
+#text .SNBB75 {
+	display: block;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
