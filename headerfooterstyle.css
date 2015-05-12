@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+
+/*-- Page Formatting --*/
+
+body, header, main, footer {
+	margin: 0px auto; }
+
+body {
+	align: center;
+	background-color: #EEEEEE;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	width: 850px; }
+
+
+/*-- Header Details --*/
+
+header {
+	background-color: #778899;
+	font-size: 1.25em;
+	height: 120px;
+	margin-bottom: 32px; }
+
+header img {
+	float: left;
+	padding: 10px;
+	position: relative; }
+
+.headerLogin {
+	background-color: #44DDFF;
+	border-radius: 6px;
+	display: block;
+	float: right;
+	margin: 5px; }
+
+.headerLoginElement {
+	font-size: 0.875em;
+	padding: 10px; }
+
+.headerNav {
+	width: 100%;
+	padding: 80px 20px 0px;
+	position: relative; }
+
+.headerNavElement {
+	color: #000000;
+	text-decoration: none;
+	padding: 7px 5px;
+	margin: 0px 1px; }
+
+.headerNav, .headerNavElement {
+	text-decoration: none; }
+	
+.headerNavElement:hover, #activePage {
+	background-color: #EEEEEE; }
+
+
+/*-- Footer Details --*/
+
+footer {
+	background-color: #13181B;
+    border-top-left-radius: 6px;
+	border-top-right-radius: 6px; 
+    bottom: 0px;
+    height: 9em;
+    padding: 10px; }
+
+#footerNav {
+	float: left; }
+
+#footerNav a:link {
+	color: #0066CC;
+	text-decoration: none; }
+
+#footerNav a:hover {
+	color: #00BBFF;
+	text-decoration: underline; }
+	
+.footerNavElement {
+	padding: 0px 20px; }
+
+#footerContact {
+	float: right; }
+
+#footerContact, #footerSponsors {
+	color: #FFFFFF; }
+
+#footerContact h2 {
+	font-weight: normal; }
+
+#footerContact h1, #footerContact h2, #footerSponsors h1 {
+	font-size: 1em;
+	margin: 0px; }
+
+#footerContact h1, #footerContact h2, #footerContact p {
+	display: inline; }
+
+#footerContact p {
+	font-style: italic; }
+
+#footerSponsors {
+	text-align: center; }
+
+#footerSponsors h1 {
+	display: block;
+	font-size: inherit;
+	margin-bottom: 5px; }
+
+
+/*-- Other Details (For seeing top / bottom better) --*/
+
+main {
+	padding: 5em 0em; }
