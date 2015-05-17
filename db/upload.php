@@ -1,7 +1,7 @@
 <?php
 include("dbconnection.php");
 
-$target_dir = "db/musos/";
+$target_dir = "musos/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);

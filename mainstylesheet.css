@@ -1,22 +1,18 @@
 /*Reset*/
 * {margin: 0; padding: 0;}
-h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal; margin-left: 15%}
 img, fieldset {
 	border: 0;
-	margin-left: 15%;
+    margin-left: 15%;
+}
+
+p, ul{
+    margin-left: 15%;
 }
 
 button {cursor: pointer;}
-/*ul {list-style: none;}*/
+ul {list-style: none;}
 
-
-
-.header {
-	background-color: #7e8d92;
-	margin: 0;
-	padding: 0;
-	height: 90px;
-}
 
 .login{
 	float: right;
@@ -33,33 +29,6 @@ button {cursor: pointer;}
     color: black;
 }
 .login:hover {
-    text-decoration: underline;
-}
-
-.logo {
-	margin-left: 10%;
-	margin-top: 10px;
-}
-
-.header-navigation {
-	text-align: center;
-	display: inline-block;
-	font-size: large;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    
-}
-.header-navigation a{
-	padding-left: 5px;
-	padding-right: 5px;
-    text-decoration: none;
-    color: #13181b;
-}
-.header-navigation a:visited{
-    color: #13181b;
-}
-.header-navigation a:hover{
     text-decoration: underline;
 }
 .about-us {
@@ -132,9 +101,6 @@ button {cursor: pointer;}
    color: #fff;
    }
 
-.upcoming-events{
-    margin-left: 15%;
-}
 
 .upcoming-events h2{
     font-weight: bold;
@@ -152,52 +118,4 @@ button {cursor: pointer;}
     margin-left: 0;
 }
 
-.site-footer {
-	background-color:#13181b;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-.footer-navigation{
-	float: left;
-    margin-left: 10%;
-    margin-top: 2%;
-    columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-}
-.footer-navigation a:link{
-    text-decoration: none;
-    color: #0362be;
-    
-}
-.footer-navigation a:visited{
-    color: #0362be;
-    
-}
-.footer-navigation a:hover{
-    text-decoration: underline;
-}
 
-.footer-contact{
-	color: #FFFFFF;
-	font-size: small;
-    float: right;
-    margin-right: 10%;
-}
-.feeder-content{
-	margin-left:%15;
-	margin-right: auto;
-	margin-left: 15%;
-}
-.feeder-content img{
-    width: 400px;
-    height: auto;
-	margin-left:0;
-	margin-top:1em;
-	margin-bottom:1em;
-	
-}
-.feeder-content ul{
-    padding-left: 30px
-}

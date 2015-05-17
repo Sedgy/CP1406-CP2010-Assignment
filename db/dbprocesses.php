@@ -13,7 +13,7 @@ if ($_REQUEST['submit'] == "X")
     //Deletes everything associated with artist.
     $sql = "DELETE FROM artists WHERE id = '$_REQUEST[id]'";
     if ($dbh->exec($sql))
-        header("Location: db/artistForm.php");
+        header("Location: artistForm.php");
 
 }
 ?>
