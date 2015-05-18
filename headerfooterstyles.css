@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+
+
+/*-- Page Formatting --*/
+
+body, header, main, footer {
+	margin: 0px auto; }
+body {
+	align: center;
+	background-color: #EEEEEE;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	min-width: 920px; }
+
+
+
+/*-- Content Details --*/
+
+main {
+	padding: 5em 0em; }
+
+
+
+/*-- Header Details --*/
+
+header {
+	align: centre;
+	background-color: #778899;
+	font-size: 1.25em;
+	height: 120px;
+	margin-bottom: 32px; }
+
+    /* Logo */
+.headerLogo {
+	float: left;
+	padding: 10px;
+	position: relative; }
+
+.headerLogo, .headerNav {
+	margin-left: 15%; }
+
+    /* Login */
+.headerLogin {
+	background-color: #44DDFF;
+	border-radius: 6px;
+	display: block;
+	float: right;
+	margin: 5px; }
+
+.headerLoginElement {
+	font-size: 0.875em;
+	padding: 10px; }
+
+    /* Navigation */
+.headerNav {
+	padding-top: 80px; }
+
+.headerNavElement {
+	color: #000000;
+	text-decoration: none;
+	padding: 7px 5px;
+	margin: 0px 1px; }
+
+.headerNav, .headerNavElement {
+	text-decoration: none; }
+
+.headerNavElement:hover, #activePage {
+	background-color: #EEEEEE; }
+
+
+
+/*-- Footer Details --*/
+
+footer {
+	background-color: #13181B;
+    bottom: 0px;
+    height: 9em;
+    padding: 10px; }
+
+footer ul {
+	list-style-type: none; }
+
+    /* Navigation */
+#footerNav {
+	float: left; }
+
+#footerNav a:link, #footerNav a:visited {
+	color: #0066CC;
+	text-decoration: none; }
+
+#footerNav a:hover {
+	color: #00BBFF;
+	text-decoration: underline; }
+
+.footerNavElement {
+	padding: 0px 10px; }
+
+    /* Contact Details */
+#footerContact {
+	float: right; }
+		
+#footerContact h2 {
+	font-weight: normal; }
+		
+footer h1, footer h2 {
+	font-size: 1em;
+	margin: 0px; }
+		
+#footerContact h1, #footerContact h2 {
+	display: inline; }
+		
+#footerContact span {
+	font-style: italic; }
+
+#footerContact, #footerSponsors {
+	color: #FFFFFF; }
+
+    /* Sponsors */
+#footerSponsors {
+	text-align: center; }
+		
+footer h1 {
+	display: block;
+	font-size: inherit;
+	margin-bottom: 5px; }
