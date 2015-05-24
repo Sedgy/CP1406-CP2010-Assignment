@@ -1,11 +1,12 @@
+<?php session_start();?>
 <!doctype html>
 <html>
-<head>
+<head lang="en">
 <meta charset="utf-8">
 <title>TCMC Feeder Page</title>
 
 <link rel="stylesheet" href="mainstylesheet.css"/>
-    <link rel="stylesheet" href="headerfooterstyle.css">
+    <link rel="stylesheet" href="headerfooterstyles.css">
 </head>
 
 <body>
@@ -23,7 +24,7 @@
       <li>Induce a meditative state</li>
       <li>Relieve symptoms of depression</li>
       <li>Elevate mood</li>
-      <li>Improve cognititve performance</li>
+      <li>Improve cognitive performance</li>
       <li>Reduce anxiety</li>
       <li>Increase creativity</li>
     </ul>

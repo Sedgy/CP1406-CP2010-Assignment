@@ -1,24 +1,30 @@
 <?php
 
-include("userDbConnection.php");
+include("dbconnection.php");
 error_reporting(0);
 
 ?>
 <!doctype html>
 <html>
-<head>
+<head lang="en">
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="mainstylesheet.css">
-    <link rel="stylesheet" href="headerfooterstyle.css">
+    <link rel="stylesheet" href="headerfooterstyles.css">
 </head>
     
 <body>
     
 
+
+
     <?php
 
     include("incHeader.php");
+
+    ?>
+    <main class="adduser-content">
+    <?php
 
     if ($_REQUEST['submit'] == "Join"){
         //check if username is already in the database.
@@ -60,8 +66,9 @@ error_reporting(0);
     }
     else{
         echo "<h2>Unauthorized Entry</h2>";
-    }
-
+    } ?>
+</main>
+    <?php
     include("incFooter.php");
     ?>
 

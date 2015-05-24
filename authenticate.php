@@ -1,5 +1,5 @@
 <?php
-include("userDbConnection.php");
+include("dbconnection.php");
 
 session_start();
 
@@ -25,8 +25,10 @@ if (!isset($_SESSION['username']))
             if($typeResult['type'] == "admin"){
                 $_SESSION['type'] = "admin";
             }
-            else
+            elseif($typeResult['type'] == "paid")
             {
+                $_SESSION['type'] = "paid";
+            }else{
                 $_SESSION['type'] = "unpaid";
             }
         }
@@ -40,8 +42,6 @@ if (!isset($_SESSION['username']))
 	}
 	else 
 	{
-        $_SESSION['debuggingUser'] = $_POST['username'];
-        $_SESSION['debuggingPass'] = $_POST['password'];
 		$_SESSION['msg'] = "You must enter your details first.";
 		header("Location: login.php");
 		exit();

@@ -1,11 +1,13 @@
-<?php session_start();?>
+<?php session_start();
+include("dbconnection.php");
+?>
 <!doctype html>
 <html>
-<head>
+<head lang="en">
     <meta charset="UTF-8">
     <title>Home | Townsville Community Music Centre</title>
     <link rel="stylesheet" href="mainstylesheet.css"/>
-    <link rel="stylesheet" href="headerfooterstyle.css">
+    <link rel="stylesheet" href="headerfooterstyles.css">
 </head>
 <body>
 
@@ -19,14 +21,24 @@
 <?php if(!isset($_SESSION['username'])){?>
 <div class="become-member" align="left">
     <h2>Become a Member</h2>
-    <a href="signup.php"><button type="button" class="sign-up-btn" onclick="">Sign Up</button></a>
+    <a href="signup.php"><button type="button" class="button">Sign Up</button></a>
     or
-    <a href="login.php"><button type="button" class="log-in-btn">Log In</button></a>
+    <a href="login.php"><button type="button" class="button">Log In</button></a>
 </div>
 <?php }?>
 <div class="upcoming-events">
     <h2>Upcoming Events</h2>
     <div class="events-content">
+        <?php
+        $count = 0;
+        $sql = "SELECT * FROM events ORDER BY id ASC LIMIT 3";
+        foreach($dbh->query($sql) as $rows){
+            echo "<div class='event-", ++$count ,"'><img src='$rows[filename]' class='eventimage'><h4 class='event-artist'>$rows[artist]</h4><p class='event-sum'>$rows[eventsum]</p></div>";
+        }
+        ?>
+    </div>
+    
+    <a href="events.php"><button type="button" class="event-button" >+<br><p class="seemore">See More<p></p></button></a>
     
 </div>
 

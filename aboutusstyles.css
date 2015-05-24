@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+
+/*-- Content Details --*/
+
+main {
+    width: 90%;
+	padding: 2em 0em; 
+    margin-bottom: 300px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em; }
+
+
+    /* About Us */
+cite {
+    padding-bottom: 0.5em; }
+
+#aboutImages {
+    text-align: right;
+    float: right;
+    margin-top: 1.5em; }
+
+#aboutHistory th, #aboutHistory td {
+    min-width: 3em;
+    vertical-align: top; }
+
+
+

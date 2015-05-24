@@ -2,11 +2,11 @@
 error_reporting(E_ALL)?>
 <!doctype html>
 <html>
-<head>
+<head lang="en">
 <meta charset="utf-8">
 <title>Become A Member | Townsville Community Music Centre</title>
 <link rel="stylesheet" href="mainstylesheet.css">
-<link rel="stylesheet" href="headerfooterstyle.css">
+<link rel="stylesheet" href="headerfooterstyles.css">
 </head>
 <body>
 
@@ -50,39 +50,39 @@ if(!isset($_SESSION['type'])){
         <table>
             <tr>
                 <td><label for="username">Username:*</label></td>
-                <td><input type="text" name="username"></td>
+                <td><input type="text" name="username" id="username" placeholder="Username"></td>
             </tr>
             <tr>
                 <td><label for="firstname">First Name:</label></td>
-                <td><input type="text" name="firstname"></td>
+                <td><input type="text" name="firstname" id="firstname" placeholder="Ben"></td>
             </tr>
             <tr>
                 <td><label for="surname">Surname:*</label></td>
-                <td><input type="text" name="surname"></td>
+                <td><input type="text" name="surname" id="surname" placeholder="Smith"></td>
             </tr>
             <tr>
                 <td><label for="address">Address:*</label></td>
-                <td><input type="text" name="address"></td>
+                <td><input type="text" name="address" id="address" placeholder="1 Fake Street City QLD 4811"></td>
             </tr>
             <tr>
                 <td><label for="phoneday">Phone Day/s:</label></td>
-                <td><input type="text" name="phoneday"></td>
+                <td><input type="text" name="phoneday" id="phoneday" placeholder="Mondays..."></td>
             </tr>
             <tr>
                 <td><label for="hours">After Hours:</label></td>
-                <td><input type="text" name="hours"></td>
+                <td><input type="text" name="hours" id="hours" placeholder="6pm..."></td>
             </tr>
             <tr>
                 <td><label for="mobile">Mobile Number:*</label></td>
-                <td><input type="number" name="mobile"></td>
+                <td><input type="number" name="mobile" id="mobile" placeholder="07 40...."></td>
             </tr>
             <tr>
                 <td><label for="email">Email:*</label></td>
-                <td><input type="text" name="email"></td>
+                <td><input type="email" title="Invalid Email" name="email" id="email" placeholder="fake@email.com"></td>
             </tr>
             <tr>
                 <td><label for="password">Password:*</label></td>
-                <td><input type="password" name="password" ></td>
+                <td><input type="password" name="password" id="password" placeholder="password"></td>
             </tr>
 
         </table>

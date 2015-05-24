@@ -6,17 +6,17 @@ error_reporting(E_ALL);
 
 <!doctype html>
 <html>
-<head>
+<head lang="en">
     <meta charset="UTF-8">
     <title>Log In | </title>
     <link rel="stylesheet" href="mainstylesheet.css">
-    <link rel="stylesheet" href="headerfooterstyle.css">
+    <link rel="stylesheet" href="headerfooterstyles.css">
 </head>
 <body>
 
-<?php include("incHeader.php");
-
-
+<?php include("incHeader.php"); ?>
+<main class="login-content">
+<?php
 
 // print message from session, if one exists
 if (isset($_SESSION['msg'])) {
@@ -32,9 +32,9 @@ if (!isset($_SESSION['username'])) {
     <input type="text" placeholder="Username" id="username" name="username"><br>
     <label for="password">Password:</label>
     <input type="password" placeholder="Password" id="password" name="password"><br>
-    <input type="submit" name="submit" value="Login">
+    <input type="submit" id="login" name="submit" value="Login">
 </form> <?php } ?>
-
+</main>
 <?php include("incFooter.php");?>
 
 </body>

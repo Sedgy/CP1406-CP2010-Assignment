@@ -1,121 +1,267 @@
-/*Reset*/
-* {margin: 0; padding: 0;}
-h1, h2, h3, h4, h5, h6 {font-weight: normal; margin-left: 15%}
-img, fieldset {
-	border: 0;
+textarea {
+    resize: none;
+}
+.about-us{
+    margin-left: 15%;
+    width: 70%;
+}
+.become-member{
     margin-left: 15%;
 }
 
-p, ul{
+.current_display{
+    margin-bottom: 300px;
+}
+.upcoming-events{
+    margin-bottom: 300px;
     margin-left: 15%;
 }
-
-button {cursor: pointer;}
-ul {list-style: none;}
-
-
-.login{
-	float: right;
-	font-size: small;
-    margin-left: auto;
-    margin-right: 15%;
+.event-1{
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin-right: 2em;
 }
-.login:link{
+.event-2{
+    text-align: center;
+    width: 300px;
+    float: left;
+}
+.event-3{
+    float: left;
+    text-align: center;
+}
+.eventimage{
+    height: 200px;
+    width: auto;
+}
+
+.event-content{
+    margin-bottom: 300px;
+    margin-left: 15%;
+}
+.eventpage-image{
+    height: 200px;
+    width: auto;
+}
+.addevent-table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 400px;
+    background-color: #778899;
+    margin-bottom: 1em;
+}
+.event-table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 60%;
+    background-color: #EEEEEE;
+    margin-bottom: 1em;
+    transition: background-color 1s;
+}
+.event-table:hover{
+    background-color: #778899;
+}
+#add{
+    margin-right: 20px;
+    margin-left: 20px;
+	background-color:#778899;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #778899;
+	display:inline-block;
+	cursor:pointer;
+	color:#0066CC;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+    transition: color 1s;
+}
+#add:hover{
+    color: #000;
+}
+
+.event-item{
+    margin-bottom: 30px;
+}
+
+.button {
+    margin-right: 20px;
+    margin-left: 20px;
+	background-color:#778899;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #778899;
+	display:inline-block;
+	cursor:pointer;
+	color:#0066CC;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+    transition: background-color 1s, color 1s;
+}
+.button:hover {
+	background-color:#476e9e;
+    color: #000;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+.event-button{
+    margin-right: 20px;
+    margin-left: 70px;
+	background-color:#778899;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #778899;
+	display:inline-block;
+	cursor:pointer;
+	color:#0066CC;
+	font-family:Arial;
+	font-size:100px;
+	padding:0px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+    transition: background-color 1s, color 1s;
+}
+.event-button:hover{
+    background-color:#476e9e;
+    color: #000;
+}
+.seemore{
+    font-size: 30px;
+}
+.musician-content{
+    margin-left: 15%;
+    margin-bottom: 170px;
+    width: 70%;
+    text-align: center;
+}
+.musician-content a{
     text-decoration: none;
     color: black;
+    transition: 1s color;
 }
-.login:visited{
-    text-decoration: none;
+.musician-content a:hover{
+    color: #0066CC;
+    
+}
+.musician-content img{
+    height: 200px;
+    width: auto;
+}
+.artist-formcontent{
+    margin-left: 15%;
+}
+
+.subtleSet{
+    width: 70%;
+}
+#deleteForm{
+    margin-bottom: 10px;
+}
+.sign-up-content{
+    margin-left: 15%;
+    margin-bottom: 300px;
+}
+.sign-up-content #submit{
+    margin-right: 20px;
+    margin-left: 20px;
+	background-color:#778899;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #778899;
+	display:inline-block;
+	cursor:pointer;
+	color:#0066CC;
+	font-family:Arial;
+	font-size:17px;
+	padding:1px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+    transition: background-color 1s, color 1s;
+}
+.sign-up-content #submit:hover{
     color: black;
+    background-color: #283966; 
+
 }
-.login:hover {
-    text-decoration: underline;
-}
-.about-us {
+.bulletin-content{
+    margin-bottom: 300px;
     margin-left: 15%;
-    margin-right: 35%;
-    margin-top: 2%;
-    margin-bottom: 2%; 
 }
-
-.about-us h2{
-	margin-bottom: 10px;
-	font-weight: bold;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+.bulletin-content img{
+    height: 200px;
+    width: auto;
 }
+#deleteBBForm{
+    text-align: center;
+    width: 80%; 
+    padding: 10px;
+    background-color: #EEEEEE;
+    margin-bottom: 20px;
+    transition: background-color 1s;
 
-.become-member {
+}
+#deleteBBForm:hover{
+    background-color: #778899;
+}
+.event-form{
+    margin-bottom: 300px;
+}
+.addevent-content{
     margin-left: 15%;
-    margin-right: auto;
-    margin-bottom: 2%;
-}
-.become-member h2{
-	margin-bottom: 2%;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-weight: bold;
-}
-.become-member button {
-   background: #858687;
-   background: -webkit-gradient(linear, left top, left bottom, from(#7e8d92), to(#7e8d92));
-   background: -webkit-linear-gradient(top, #7e8d92, #7e8d92);
-   background: -moz-linear-gradient(top, #7e8d92, #7e8d92);
-   background: -ms-linear-gradient(top, #7e8d92, #7e8d92);
-   background: -o-linear-gradient(top, #7e8d92, #7e8d92);
-   background-image: -ms-linear-gradient(top, #7e8d92 0%, #7e8d92 100%);
-   padding: 11px 22px;
-   -webkit-border-radius: 0px;
-   -moz-border-radius: 0px;
-   border-radius: 0px;
-   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
-   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
-   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
-   text-shadow: #7ea4bd 0 1px 0;
-   color: #000000;
-   font-size: 14px;
-   font-family: helvetica, serif;
-   text-decoration: none;
-   vertical-align: middle;
-   margin-right: 30px;
-   margin-left: 30px;
-   }
-.become-member button:hover {
-   text-shadow: #1e4158 0 1px 0;
-   background: #696969;
-   background: -webkit-gradient(linear, left top, left bottom, from(#696969), to(#696969));
-   background: -webkit-linear-gradient(top, #696969, #696969);
-   background: -moz-linear-gradient(top, #696969, #696969);
-   background: -ms-linear-gradient(top, #696969, #696969);
-   background: -o-linear-gradient(top, #696969, #696969);
-   background-image: -ms-linear-gradient(top, #696969 0%, #696969 100%);
-   color: #fff;
-   }
-.become-member button:active {
-   text-shadow: #1e4158 0 1px 0;
-   background: #3e779d;
-   background: -webkit-gradient(linear, left top, left bottom, from(#1c6286), to(#1c6286));
-   background: -webkit-linear-gradient(top, #1c6286, #1c6286);
-   background: -moz-linear-gradient(top, #1c6286, #1c6286);
-   background: -ms-linear-gradient(top, #1c6286, #1c6286);
-   background: -o-linear-gradient(top, #1c6286, #1c6286);
-   background-image: -ms-linear-gradient(top, #1c6286 0%, #1c6286 100%);
-   color: #fff;
-   }
-
-
-.upcoming-events h2{
-    font-weight: bold;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    margin-top: 0;
 }
 
-.events-content div{
-    display: inline-block;
-    padding: 20px;
+
+.current-artists-table tr{
+    background-color: #EEEEEE; 
+    transition: background-color 1s, border 1s;
+}
+.current-artists-table tr:hover{
+    background-color: #778899;
+
+}
+.adduser-content{
+    margin-left: 15%;
+}
+.welcome-content{
+    margin-left: 15%;
+}
+.logout-content{
+    margin-left: 15%;
+}
+.login-content{
+    margin-left: 15%;
+}
+.feeder-content{
+    margin-left:  15%;
+}
+.bb-form table{
+    background-color: #778899;
+    border: 1px solid black;
+}
+.payment{
+    margin-left: 15%;
 }
 
-.events-content img{
-    width: 200px;
-    height: auto;
-    margin-left: 0;
-}
+
+
+
+
+
+
+
+
 
 
